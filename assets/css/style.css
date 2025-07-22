@@ -1,0 +1,86 @@
+.movie
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    height: 100vh;
+
+    background-color: #ccc;
+    background-position: center;
+    background-size: cover;
+
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.movie__container
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+        flex-direction: column;
+
+    max-width: 500px;
+    padding: 32px;
+
+    color: white;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, .3);
+
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    gap: 16px;
+    backdrop-filter: blur(12px);
+}
+.movie__form
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 16px;
+}
+.movie__form-text
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+.movie__form-field
+{
+    padding: 8px;
+}
+
+.btn
+{
+    cursor: pointer;
+}
+
+.movie-title
+{
+    font-size: 30px;
+    font-weight: bold;
+
+    margin-bottom: 16px;
+}
+
+.movie-year
+{
+    font-size: 30px;
+
+    margin: 8px;
+}
+
+.movie-type
+{
+    font-size: 30px;
+
+    margin-bottom: 8px;
+}

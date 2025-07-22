@@ -1,0 +1,57 @@
+.movie {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #ccc;
+  background-size: cover;
+  background-position: center;
+
+
+  &__container {
+    max-width: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 32px;
+    border-radius: 12px;
+    backdrop-filter: blur(12px);
+    background-color: rgba(0, 0, 0, .3);
+  }
+
+  &__form {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    &-text {
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    &-field {
+      padding: 8px;
+    }
+  }
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.movie-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.movie-year {
+  font-size: 30px;
+  margin: 8px;
+}
+
+.movie-type {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
