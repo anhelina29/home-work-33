@@ -1,5 +1,5 @@
 const API_MOVIE_KEY = '904089eb'
-const API_MOVIE_URL = 'http://www.omdbapi.com/'
+const API_MOVIE_URL = 'https://www.omdbapi.com/'
 
 const API_PHOTOS_ACCESS_KEY = 'setVKry_0ESdqVshrXhwF0GfddTj0hDjM7k5V3mrkUU'
 const API_PHOTOS_URL = `https://api.unsplash.com/search/photos?client_id=${API_PHOTOS_ACCESS_KEY}&per_page=1&orientation=${screen.orientation.type.split('-')[0]}&query=`
